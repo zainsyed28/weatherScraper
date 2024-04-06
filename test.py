@@ -1,7 +1,7 @@
 import pyowm
 from datetime import datetime, timedelta
 
-owm = pyowm.OWM('d7bbe8c738c15cc7bb21e38a262f5bf1')  # Replace with your actual API key
+owm = pyowm.OWM('')  # Replace with your actual API key
 weather_mgr = owm.weather_manager()
 place = 'Los Angeles, US'
 observation = weather_mgr.weather_at_place(place)
